@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "adf-smart-agriculture"
+        },
+        "LS_ADLS_SmartAgriculture_accountKey": {
+            "value": ""
+        },
+        "AzureDatabricks1_accessToken": {
+            "value": ""
+        },
+        "LS_ADLS_SmartAgriculture_properties_typeProperties_url": {
+            "value": "https://smartagrinil.dfs.core.windows.net/"
+        },
+        "AzureDatabricks1_properties_typeProperties_existingClusterId": {
+            "value": "0829-032628-veia5e3f"
+        }
+    }
+}
